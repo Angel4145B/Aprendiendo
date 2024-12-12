@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Salud</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Salud</h1>
+        <p>Aprende sobre hábitos saludables</p>
+    
+            <div class="dropdown">
+                <button class="dropdown-toggle">☰ Menú</button>
+                <ul class="dropdown-menu">
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="deporte.html">Deporte</a></li>
+                    <li><a href="salud.html">Salud</a></li>
+                    <li><a href="diversion.html">Diversión</a></li>
+                    <li><a href="acercaa.html">Acera de Nosotros</a></li>
+                </ul>
+            </div>
+    
+    </header>
+
+    <main>
+        <section>
+            <h2>Semáforo de Comida</h2>
+            <div class="traffic-light">
+                <div class="light green" id="green-light" onclick="askQuestion('verde')">Verde: Comer bien</div>
+                <div class="light yellow" id="yellow-light" onclick="askQuestion('amarillo')">Amarillo: Comer con moderación</div>
+                <div class="light red" id="red-light" onclick="askQuestion('rojo')">Rojo: Evitar</div>
+            </div>
+        </section>
+        <p id="Salud">Recuerda moderar tu consumo de carnes y comidas rapidas, manten siempre en tu dieta las frutas verduras y carnes saludables como la de pescado y el pollo.
+            Come con moderacion.
+        </p>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Deporte, Salud y Diversión. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="logica.js"></script>
+</body>
+</html>
+
